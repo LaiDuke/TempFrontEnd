@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\HotelController;
 use App\Http\Controllers\TouristSpotController;
 use Illuminate\Support\Facades\Route;
 /*
@@ -13,9 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [HomeController::class, 'index']);
+Route::post('/home', [HomeController::class, 'store']);
 Route::get('/search', function () {
     return view('search');
 });
@@ -25,9 +26,8 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
-Route::get('/hotel', function () {
-    return view('information/hotel');
-});
+Route::get('/hotel', [HotelController::class, 'index']);
+Route::get('/hotel/{id}', [HotelController::class, 'show']);
 Route::get('/resort', function () {
     return view('information/resort');
 });

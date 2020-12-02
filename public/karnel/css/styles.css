@@ -11937,7 +11937,7 @@ html[xmlns] .flexslider .slides {
 	display:block;
 	height:20px;
 	width:20px;
-	background-image: url(/karnel/images/color.png);
+	background-image: url(/public/karnel/images/color.png);
 	background-size:cover;
 }
 /* Magnific Popup CSS */
@@ -12352,7 +12352,7 @@ Author:			Star Travel
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	/* background: url(/karnel/images/loader-orange.gif) center no-repeat #fff; */
+	/* background: url(/public/karnel/images/loader-orange.gif) center no-repeat #fff; */
 }
 
 p{
@@ -12694,7 +12694,7 @@ p{
 }
 
 .main-navbar .mega-dropdown-menu{
-	/* background:linear-gradient(rgba(242, 242, 242,0.85),rgba(242, 242, 242,0.85)),url('/karnel/images/megamenu.jpg') 65% 50% !important; */
+	/* background:linear-gradient(rgba(242, 242, 242,0.85),rgba(242, 242, 242,0.85)),url('/public/karnel/images/megamenu.jpg') 65% 50% !important; */
 }
 
 .main-navbar .mega-dropdown-menu .dropdown-header{
@@ -13338,7 +13338,7 @@ p{
 /************* HOTEL-HOMEPAGE *************/
 
 #hotel-homepage #hotel-offers{
-	/* background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/karnel/images/hotel-offers.jpg) 50% 80%; */
+	/* background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/public/karnel/images/hotel-offers.jpg) 50% 80%; */
 	background-size:cover;
 }
 
@@ -13348,7 +13348,7 @@ p{
    ----------------------------------------------------- */
 
 #main-homepage #tour-offers{
-	/* background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/karnel/images/tour-offers.jpg) 50% 0%; */
+	/* background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/public/karnel/images/tour-offers.jpg) 50% 0%; */
 	background-size:cover;
 	background-attachment:fixed;
 }
@@ -13729,7 +13729,7 @@ p{
 /************** VIDEO-BANNER **************/
 
 #video-banner{
-	/* background: linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url('/karnel/images/video-banner.jpg') 50% 37%; */
+	/* background: linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url('/public/karnel/images/video-banner.jpg') 50% 37%; */
 	background-size:140%;
 }
 
@@ -13748,7 +13748,7 @@ p{
 /************* MESSAGE-BANNER *************/
 
 #message-banner{
-	background: linear-gradient(rgba(0, 0, 0,0.76),rgba(0, 0, 0,0.76)),url('/karnel/images/message-banner.jpg') 50% 66%;
+	background: linear-gradient(rgba(0, 0, 0,0.76),rgba(0, 0, 0,0.76)),url('/public/karnel/images/message-banner.jpg') 50% 66%;
 	background-size:140%;
 	color:white;
 }
@@ -13760,7 +13760,7 @@ p{
 /************* SEARCH-BANNER *************/
 
 #search-banner{
-	background: linear-gradient(rgba(250, 166, 26,0.8),rgba(250, 166, 26,0.8)),url('/karnel/images/message-banner.jpg') 50% 66%;
+	background: linear-gradient(rgba(250, 166, 26,0.8),rgba(250, 166, 26,0.8)),url('/public/karnel/images/message-banner.jpg') 50% 66%;
 	background-size:140%;
 	color:white;
 }
@@ -13783,7 +13783,7 @@ p{
    ----------------------------------------------------- */
 
 #highlights{
-	background: linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url('/karnel/images/highlights.jpg') 50% 87%;
+	background: linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url('/public/karnel/images/highlights.jpg') 50% 87%;
 	background-size:145%;
 	color:white;
 }
@@ -13822,7 +13822,7 @@ p{
    ----------------------------------------------------- */
 
 #testimonials{
-	/* background: linear-gradient(rgba(0, 0, 0,0.8),rgba(0, 0, 0,0.8)),url('/karnel/images/testimonials.jpg') 50% 87%; */
+	/* background: linear-gradient(rgba(0, 0, 0,0.8),rgba(0, 0, 0,0.8)),url('/public/karnel/images/testimonials.jpg') 50% 87%; */
 	background-size:145%;
 	background-attachment:fixed;
 	color:white;
@@ -13848,7 +13848,7 @@ p{
 /************* FLIGHT-HOMEPAGE *************/
 
 #flight-homepage #testimonials{
-	/* background: linear-gradient(rgba(0, 0, 0,0.7),rgba(0, 0, 0,0.7)),url('/karnel/images/flight-testimonials.jpg') center center; */
+	/* background: linear-gradient(rgba(0, 0, 0,0.7),rgba(0, 0, 0,0.7)),url('/public/karnel/images/flight-testimonials.jpg') center center; */
 	background-size:cover;
 	background-attachment:fixed;
 	color:white;
@@ -13868,7 +13868,7 @@ p{
 /************** TOUR-HOMEPAGE **************/
 
 #tour-homepage #testimonials{
-	/* background: linear-gradient(rgba(0, 0, 0,0.7),rgba(0, 0, 0,0.7)),url('/karnel/images/tour-testimonials.jpg') center center; */
+	/* background: linear-gradient(rgba(0, 0, 0,0.7),rgba(0, 0, 0,0.7)),url('/public/karnel/images/tour-testimonials.jpg') center center; */
 	background-size:cover;
 	background-attachment:fixed;
 	color:white;
@@ -14034,7 +14034,7 @@ p{
 /************* CAR-HOMEPAGE *************/
 
 #car-homepage #car-packages{
-	/* background:linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url('/karnel/images/car-packages.jpg') center center; */
+	/* background:linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url('/public/karnel/images/car-packages.jpg') center center; */
 	background-size:cover;
 }
 
@@ -14061,7 +14061,7 @@ p{
 /************* NEWSLETTER-1 *************/
 
 #newsletter-1{
-	background:linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url(/karnel/images/newsletter.jpg) 50% 78%;
+	background:linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url(/public/karnel/images/newsletter.jpg) 50% 78%;
 	background-size:140%;
 	color:white;
 }
@@ -14092,7 +14092,7 @@ p{
    ----------------------------------------------------- */
 
 #contact-form{
-	/* background:linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url('/karnel/images/contact-form.jpg') 50% 50%; */
+	/* background:linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url('/public/karnel/images/contact-form.jpg') 50% 50%; */
 	background-size:cover;
 	color:white;
 }
@@ -14254,13 +14254,13 @@ p{
 /********** COVER FLIGHT PAGES **********/
 
 #cover-flight-grid-list{
-	/* background:url('/karnel/images/cover-flight-grid-list.jpg') 50% 40%; */
+	/* background:url('/public/karnel/images/cover-flight-grid-list.jpg') 50% 40%; */
 	background-size:140%;
 	color:white;
 }
 
 #cover-flight-detail{
-	/* background:url('/karnel/images/cover-flight-detail.jpg') 50% 20%; */
+	/* background:url('/public/karnel/images/cover-flight-detail.jpg') 50% 20%; */
 	background-size:140%;
 	color:white;
 }
@@ -14268,41 +14268,41 @@ p{
 /*********** COVER HOTEL PAGES **********/
 
 #cover-hotel-grid-list{
-	background:url('/karnel/images/cover-hotel-grid-list.jpg') 50% 20%;
+	background:url('/public/karnel/images/cover-hotel-grid-list.jpg') 50% 20%;
 	background-size:140%;
 	color:white;
 }
 
 #cover-hotel-detail{
-	background:url('/karnel/images/cover-hotel-detail.jpg') 50% 55%;
+	background:url('/public/karnel/images/cover-hotel-detail.jpg') 50% 55%;
 	background-size:140%;
 	color:white;
 }
 
 /*********** COVER TOUR PAGES ***********/
 .hotelCover{
-    background: url('/karnel/images/cover-hotel-grid-list.jpg') 50% 20% !important;
+    background: url('/public/karnel/images/cover-hotel-grid-list.jpg') 50% 20% !important;
 }
 .travelCover{
-    background: url('/karnel/images/cover-car-search.jpg') 50% 90% !important;
+    background: url('/public/karnel/images/cover-car-search.jpg') 50% 90% !important;
 }
 .ResCover {
-    background: url('/karnel/images/cover-hotel-detail.jpg') 50% 55% !important;
+    background: url('/public/karnel/images/cover-hotel-detail.jpg') 50% 55% !important;
 }
 .resortsCover{
-    background: url('/karnel/images/Resorts.jpg') 50% 55% !important;
+    background: url('/public/karnel/images/Resorts.jpg') 50% 55% !important;
     background-size:140% !important;
 	color:white !important;
 }
 #cover-tour-grid-list{
-	background:url('/karnel/images/cover-tour-grid-list.jpg') 50% 84%;
+	background:url('/public/karnel/images/cover-tour-grid-list.jpg') 50% 84%;
 	background-size:140%;
 	color:white;
 }
 
 
 #cover-tour-detail{
-	/* background:url('/karnel/images/cover-tour-detail.jpg') 50% 56%; */
+	/* background:url('/public/karnel/images/cover-tour-detail.jpg') 50% 56%; */
 	background-size:140%;
 	color:white;
 }
@@ -14310,13 +14310,13 @@ p{
 /********** COVER CRUISE PAGES **********/
 
 #cover-cruise-grid-list{
-	/* background:url('/karnel/images/cover-cruise-grid-list.jpg') 50% 45%; */
+	/* background:url('/public/karnel/images/cover-cruise-grid-list.jpg') 50% 45%; */
 	background-size:cover;
 	color:white;
 }
 
 #cover-cruise-detail{
-	/* background:url('/karnel/images/cover-cruise-detail.jpg') 50% 25%; */
+	/* background:url('/public/karnel/images/cover-cruise-detail.jpg') 50% 25%; */
 	background-size:140%;
 	color:white;
 }
@@ -14324,13 +14324,13 @@ p{
 /************ COVER CAR PAGES ***********/
 
 #cover-car-grid-list{
-	/* background:url('/karnel/images/cover-car-grid-list.jpg') 50% 45%; */
+	/* background:url('/public/karnel/images/cover-car-grid-list.jpg') 50% 45%; */
 	background-size:cover;
 	color:white;
 }
 
 #cover-car-detail{
-	/* background:url('/karnel/images/cover-car-detail.jpg') 50% 30%; */
+	/* background:url('/public/karnel/images/cover-car-detail.jpg') 50% 30%; */
 	background-size:140%;
 	color:white;
 }
@@ -14338,7 +14338,7 @@ p{
 /************ COVER ABOUT US ************/
 
 #cover-about-us{
-	 background:url('/karnel/images/cover-about-us.jpg') 50% 45%;
+	 background:url('/public/karnel/images/cover-about-us.jpg') 50% 45%;
 	background-size:cover;
 	color:white;
 }
@@ -14346,150 +14346,150 @@ p{
 /********** COVER BLOG PAGES ************/
 
 #cover-blog-listing{
-	/* background:url('/karnel/images/cover-blog-listing.jpg') 50% 90%; */
+	/* background:url('/public/karnel/images/cover-blog-listing.jpg') 50% 90%; */
 	background-size:cover;
 }
 
 #cover-blog-details{
-	/* background:url('/karnel/images/cover-blog-details.jpg') 50% 90%; */
+	/* background:url('/public/karnel/images/cover-blog-details.jpg') 50% 90%; */
 	background-size:cover;
 }
 
 /********* COVER GALLERY PAGES **********/
 
 #cover-gallery{
-	/* background:url('/karnel/images/cover-gallery.jpg') 50% 60%; */
+	/* background:url('/public/karnel/images/cover-gallery.jpg') 50% 60%; */
 	background-size:cover;
 }
 
 /********* COVER TEAM PAGES **********/
 
 #cover-team{
-	/* background:url('/karnel/images/cover-team.jpg') 50% 50%; */
+	/* background:url('/public/karnel/images/cover-team.jpg') 50% 50%; */
 	background-size:cover;
 }
 
 /******* COVER REGISTRATION PAGE ********/
 
 #cover-registration{
-	/* background:url('/karnel/images/cover-registration.jpg') 50% 36%; */
+	/* background:url('/public/karnel/images/cover-registration.jpg') 50% 36%; */
 	background-size:145%;
 }
 
 /********** COVER LOGIN PAGE ************/
 
 #cover-login{
-	/* background:url('/karnel/images/cover-login.jpg') 50% 76%; */
+	/* background:url('/public/karnel/images/cover-login.jpg') 50% 76%; */
 	background-size:145%;
 }
 
 /****** COVER FORGOT PASSWORD PAGE ******/
 
 #cover-forgot-password{
-	/* background:url('/karnel/images/cover-forgot-password.jpg') 50% 32%; */
+	/* background:url('/public/karnel/images/cover-forgot-password.jpg') 50% 32%; */
 	background-size:140%;
 }
 
 /********** BEFORE YOU FLY PAGE *********/
 
 #cover-byf-info{
-	/* background:url('/karnel/images/cover-byf-info.jpg') center center; */
+	/* background:url('/public/karnel/images/cover-byf-info.jpg') center center; */
 	background-size:cover;
 }
 
 /********* TRAVEL INSURANCE PAGE ********/
 
 #cover-travel-insurance{
-	/* background:url('/karnel/images/cover-travel-insurance.jpg') 50% 20%; */
+	/* background:url('/public/karnel/images/cover-travel-insurance.jpg') 50% 20%; */
 	background-size:cover;
 }
 
 /************* HOLIDAYS PAGE ************/
 
 #cover-holiday{
-	/* background:url('/karnel/images/cover-holiday.jpg') 50% 30%; */
+	/* background:url('/public/karnel/images/cover-holiday.jpg') 50% 30%; */
 	background-size:cover;
 }
 
 /************* THANK YOU PAGE ***********/
 
 #cover-thank-you{
-	/* background:url('/karnel/images/cover-thank-you.jpg') 50% 50%; */
+	/* background:url('/public/karnel/images/cover-thank-you.jpg') 50% 50%; */
 	background-size:cover;
 }
 
 /********** COVER CONTACT US ************/
 
 #cover-contact-us{
-	/* background:url('/karnel/images/cover-contact-us.jpg') 50% 20%; */
+	/* background:url('/public/karnel/images/cover-contact-us.jpg') 50% 20%; */
 	background-size:cover;
 }
 
 /******* COVER BOOKING PAGES ******/
 
 #cover-flight-booking{
-	/* background:url('/karnel/images/cover-flight-booking.jpg') 50% 50%; */
+	/* background:url('/public/karnel/images/cover-flight-booking.jpg') 50% 50%; */
 	background-size:cover;
 }
 
 #cover-hotel-booking{
-	/* background:url('/karnel/images/cover-hotel-booking.jpg') 50% 55%; */
+	/* background:url('/public/karnel/images/cover-hotel-booking.jpg') 50% 55%; */
 	background-size:cover;
 }
 
 #cover-tour-booking{
-	/* background:url('/karnel/images/cover-tour-booking.jpg') 50% 30%; */
+	/* background:url('/public/karnel/images/cover-tour-booking.jpg') 50% 30%; */
 	background-size:cover;
 }
 
 #cover-cruise-booking{
-	/* background:url('/karnel/images/cover-cruise-booking.jpg') 50% 50%; */
+	/* background:url('/public/karnel/images/cover-cruise-booking.jpg') 50% 50%; */
 	background-size:cover;
 }
 
 #cover-car-booking{
-	/* background:url('/karnel/images/cover-car-booking.jpg') 50% 65%; */
+	/* background:url('/public/karnel/images/cover-car-booking.jpg') 50% 65%; */
 	background-size:cover;
 }
 
 /******* COVER SEARCH RESULT PAGES ******/
 
 #cover-flight-search{
-	/* background:url('/karnel/images/cover-flight-search.jpg') 50% 50%; */
+	/* background:url('/public/karnel/images/cover-flight-search.jpg') 50% 50%; */
 	background-size:cover;
 }
 
 #cover-hotel-search{
-	/* background:url('/karnel/images/cover-hotel-search.jpg') 50% 25%; */
+	/* background:url('/public/karnel/images/cover-hotel-search.jpg') 50% 25%; */
 	background-size:cover;
 }
 
 #cover-tour-search{
-	/* background:url('/karnel/images/cover-tour-search.jpg') 50% 20%; */
+	/* background:url('/public/karnel/images/cover-tour-search.jpg') 50% 20%; */
 	background-size:cover;
 }
 
 #cover-cruise-search{
-	/* background:url('/karnel/images/cover-cruise-search.jpg') 50% 65%;  */
+	/* background:url('/public/karnel/images/cover-cruise-search.jpg') 50% 65%;  */
 	background-size:cover;
 }
 
 #cover-car-search{
-	background:url('/karnel/images/cover-car-search.jpg') 50% 90%;
+	background:url('/public/karnel/images/cover-car-search.jpg') 50% 90%;
 	background-size:cover;
 }
 
 /********* COVER NAVBAR WRAPPER **********/
 
 .cover-navbar-wrapper{
-	/* background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/karnel/images/cover-navbar-wrapper.jpg') 50% 60%; */
+	/* background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/public/karnel/images/cover-navbar-wrapper.jpg') 50% 60%; */
 	background-size:cover
 }
 
 /*********** COVER BACKGROUND ************/
 
 .page-cover.back-img{
-	/* background:url('/karnel/images/cover-back-img.jpg') 50% 60%; */
+	/* background:url('/public/karnel/images/cover-back-img.jpg') 50% 60%; */
 	background-size:cover;
 }
 
@@ -14534,62 +14534,62 @@ p{
 /********** COVER OFFER PAGES ************/
 
 #cover-flight-offers{
-	/* background:url('/karnel/images/cover-flight-offers.jpg') 50% 40%; */
+	/* background:url('/public/karnel/images/cover-flight-offers.jpg') 50% 40%; */
 	background-size:cover;
 }
 
 #cover-hotel-offers{
-	/* background:url('/karnel/images/cover-hotel-offers.jpg') 50% 40%; */
+	/* background:url('/public/karnel/images/cover-hotel-offers.jpg') 50% 40%; */
 	background-size:cover;
 }
 
 #cover-tour-offers{
-	/* background:url('/karnel/images/cover-tour-offers.jpg') 50% 85%; */
+	/* background:url('/public/karnel/images/cover-tour-offers.jpg') 50% 85%; */
 	background-size:cover;
 }
 
 #cover-cruise-offers{
-	/* background:url('/karnel/images/cover-cruise-offers.jpg') 50% 75%; */
+	/* background:url('/public/karnel/images/cover-cruise-offers.jpg') 50% 75%; */
 	background-size:cover;
 }
 
 #cover-car-offers{
-	/* background:url('/karnel/images/cover-car-offers.jpg') 50% 60%; */
+	/* background:url('/public/karnel/images/cover-car-offers.jpg') 50% 60%; */
 	background-size:cover;
 }
 
 /********** COVER PRICING TABLE **********/
 
 #cover-price-table{
-	/* background:url('/karnel/images/cover-price-table.jpg') 50% 60%; */
+	/* background:url('/public/karnel/images/cover-price-table.jpg') 50% 60%; */
 	background-size:cover;
 }
 
 /********** COVER TESTIMONIALS ***********/
 
 #cover-testimonials{
-	/* background:url('/karnel/images/cover-testimonials.jpg') 50% 40%; */
+	/* background:url('/public/karnel/images/cover-testimonials.jpg') 50% 40%; */
 	background-size:cover;
 }
 
 /************ COVER FAQ PAGES ************/
 
 #cover-faq{
-	/* background:url('/karnel/images/cover-faq.jpg') 50% 40%; */
+	/* background:url('/public/karnel/images/cover-faq.jpg') 50% 40%; */
 	background-size:cover;
 }
 
 /********** COVER SERVICE PAGES **********/
 
 #cover-services{
-	/* background:url('/karnel/images/cover-services.jpg') 50% 50%; */
+	/* background:url('/public/karnel/images/cover-services.jpg') 50% 50%; */
 	background-size:cover;
 }
 
 /********** COVER TRAVEL GUIDE **********/
 
 #cover-travel-guide{
-	/* background:url('/karnel/images/cover-travel-guide.jpg') 50% 70%; */
+	/* background:url('/public/karnel/images/cover-travel-guide.jpg') 50% 70%; */
 	background-size:cover;
 }
 
@@ -15239,7 +15239,7 @@ p{
 /************ FULL PAGE FORMS ************/
 
 #full-page-form{
-	/* background:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)),url('/karnel/images/cover-full-page-form.jpg') 50% 40%; */
+	/* background:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)),url('/public/karnel/images/cover-full-page-form.jpg') 50% 40%; */
 	background-size:cover;
 }
 
@@ -15428,7 +15428,7 @@ p{
 /************** ERROR PAGE **************/
 
 #error-text{
-	/* background:linear-gradient(rgba(250, 166, 26,0.85),rgba(250, 166, 26,0.85)),url('/karnel/images/error-page.jpg') top; */
+	/* background:linear-gradient(rgba(250, 166, 26,0.85),rgba(250, 166, 26,0.85)),url('/public/karnel/images/error-page.jpg') top; */
 	background-size:145%;
 	color:white;
 }
@@ -15444,7 +15444,7 @@ p{
 /************** ERROR PAGE 2 *************/
 
 .full-page-back{
-	/* background:linear-gradient(rgba(255, 255, 255,0.95),rgba(255, 255, 255,0.95)),url('/karnel/images/error-page-2.jpg') center; */
+	/* background:linear-gradient(rgba(255, 255, 255,0.95),rgba(255, 255, 255,0.95)),url('/public/karnel/images/error-page-2.jpg') center; */
 	background-size:cover;
 }
 
@@ -15465,7 +15465,7 @@ p{
 /********** COMING SOON PAGE ************/
 
 #coming-soon-text{
-	/* background:linear-gradient(rgba(0, 0, 0,0.56),rgba(0, 0, 0,0.56)),url('/karnel/images/coming-soon-page.jpg') bottom; */
+	/* background:linear-gradient(rgba(0, 0, 0,0.56),rgba(0, 0, 0,0.56)),url('/public/karnel/images/coming-soon-page.jpg') bottom; */
 	background-size:145%;
 	color:white;
 }
@@ -16068,7 +16068,7 @@ p{
 /********** PAYMENT-SUCCESS PAGE *********/
 
 #payment-success{
-	/* background:linear-gradient(rgba(255, 255, 255,0.9),rgba(255, 255, 255,0.9)),url('/karnel/images/coming-soon-page.jpg') center center; */
+	/* background:linear-gradient(rgba(255, 255, 255,0.9),rgba(255, 255, 255,0.9)),url('/public/karnel/images/coming-soon-page.jpg') center center; */
 	background-size:cover;
 }
 

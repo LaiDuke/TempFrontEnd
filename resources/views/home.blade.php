@@ -11,9 +11,7 @@
         <div class="flexslider slider" id="slider-5">
             <ul class="slides">
 
-                <li class="item-1 back-size" style="background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(karnel/images/slider1.jpg) 50% 60%;
-	background-size:142%;
-	height:100%;">
+                <li class="item-1 back-size" style="background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url({{asset('karnel/images/slider1.jpg')}}) 50% 60%;background-size:142%;height:100%;">
                     <div class="meta">
                         <div class="container">
                             <h2>Discover</h2>
@@ -23,7 +21,7 @@
                     </div><!-- end meta -->
                 </li><!-- end item-1 -->
 
-                <li class="item-2 back-size" style="background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(karnel/images/slider2.jpg) 50% 60%;
+                <li class="item-2 back-size" style="background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url({{asset('karnel/images/slider2.jpg')}}) 50% 60%;
 	background-size:142%;
 	height:100%;">
                     <div class="meta">
@@ -35,7 +33,7 @@
                     </div><!-- end meta -->
                 </li><!-- end item-2 -->
 
-                <li class="item-2 back-size" style="background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(karnel/images/slider3.jpg) 50% 60%;
+                <li class="item-2 back-size" style="background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url({{asset('karnel/images/slider3.jpg')}}) 50% 60%;
 	background-size:142%;
 	height:100%;">
                     <div class="meta">
@@ -47,7 +45,7 @@
                     </div><!-- end meta -->
                 </li><!-- end item-2 -->
 
-                <li class="item-2 back-size" style="background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(karnel/images/slider4.jpg) 50% 60%;
+                <li class="item-2 back-size" style="background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url({{asset('karnel/images/slider4.jpg')}}) 50% 60%;
 	background-size:142%;
 	height:100%;">
                     <div class="meta">
@@ -75,6 +73,7 @@
                     </div><!-- end page-heading -->
 
                     <div class="owl-carousel owl-theme owl-custom-arrow" id="owl-tour-offers">
+
 
                         <div>
                             <div class="grid">

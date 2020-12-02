@@ -35,20 +35,20 @@
                             <div class="tab-content">
 
                                 <div id="tv-guide-overview" class="tab-pane in active">
-                                    <img src="{{asset('karnel/images/3.png')}}" class="img-responsive" alt="tour-guide-img" style="width: 100%;" />
+                                    <img src="{{$hotel->ImageUrl == null ? asset('karnel/images/3.png') : 'http://res.cloudinary.com/a123abc/image/upload/'.$hotel->ImageUrl}}" class="img-responsive" alt="tour-guide-img" style="width: 100%;" />
 
                                     <div class="tab-text">
-                                        <h3>Selfie Styler</h3>
+                                        <h3>{{$hotel->Name}}</h3>
                                         <div class="table-responsive">
                                             <table class="table table-striped">
                                                 <tbody>
                                                     <tr>
                                                         <td>Country</td>
-                                                        <td>Pakistan</td>
+                                                        <td>{{$hotel->Location}}</td>
                                                     </tr>
                                                     <tr>
                                                         <td>Price</td>
-                                                        <td>500.00</td>
+                                                        <td>{{$hotel->Price}}</td>
                                                     </tr>
                                                     <tr>
                                                         <td>Available</td>
@@ -88,7 +88,7 @@
                                             </table>
                                         </div><!-- end table-responsive -->
 
-                                    <p>DescriptionDescriptionDescriptionDescriptionDescriptionDescription</p>
+                                    {{$hotel->Content}}
                                     </div><!-- end tab-text -->
                                 </div><!-- end tv-guide-overview -->
 

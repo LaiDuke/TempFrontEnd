@@ -29,46 +29,13 @@
                     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-12 content-side">
 
                         <div class="row">
-
-                            <div class="col-sm-6 col-md-6 col-lg-4">
-                                <div class="grid-block main-block t-grid-block">
-                                    <div class="main-img t-grid-img">
-                                        <a href="tour-detail-left-sidebar.html">
-
-                                            <img src="{{asset('karnel/images/3.png')}}" alt="SAIFUL MALOOK LAKE"/>
-                                        </a>
-                                        <div class="main-mask">
-                                            <ul class="list-unstyled list-inline offer-price-1">
-                                                <li class="price">Sale of<span class="divider">|</span><span class="pkg">7 Days Tour</span></li>
-                                            </ul>
-                                        </div><!-- end main-mask -->
-                                    </div><!-- end t-grid-img -->
-
-                                    <div class="block-info t-grid-info">
-                                        <div class="rating">
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star orange"></i></span>
-                                            <span><i class="fa fa-star lightgrey"></i></span>
-                                        </div><!-- end rating -->
-
-                                        <h3 class="block-title"><a href="tour-detail-left-sidebar.html">Xin chao</a></h3>
-
-                                        <p>Content</p>
-                                        <div class="grid-btn">
-                                            <a href="/Information/TourDetails/2" class="btn btn-orange btn-block btn-lg">View More</a>
-                                        </div><!-- end grid-btn -->
-                                    </div><!-- end t-grid-info -->
-                                </div><!-- end t-grid-block -->
-                            </div><!-- end columns -->
                             @foreach($listTour as $tour)
                                 <div class="col-sm-6 col-md-6 col-lg-4">
                                     <div class="grid-block main-block t-grid-block">
                                         <div class="main-img t-grid-img">
                                             <a href="tour-detail-left-sidebar.html">
 
-                                                <img src="{{$tour->ImageUrl == null ? asset('karnel/images/3.png') : $tour->ImageUrl}}" alt="SAIFUL MALOOK LAKE"/>
+                                                <img src="{{$tour->ImageUrl == null ? asset('karnel/images/3.png') : 'http://res.cloudinary.com/a123abc/image/upload/'.$tour->ImageUrl}}" alt="SAIFUL MALOOK LAKE" width="100px"/>
                                             </a>
                                             <div class="main-mask">
                                                 <ul class="list-unstyled list-inline offer-price-1">
@@ -98,7 +65,6 @@
                             @endforeach
                         </div><!-- end row -->
 
-                        {{ $listTour->links("Sem3_frontEnd/public/tourist-spot") }}
                         <div class="pages">
                             <div class="pagination-container"><ul class="pagination"><li class="active"><a>1</a></li><li><a href="/Information/ToursitSpots?page=2">2</a></li><li class="PagedList-skipToNext"><a href="/Information/ToursitSpots?page=2" rel="next">»</a></li></ul></div>
                         </div>

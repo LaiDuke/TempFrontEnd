@@ -27,43 +27,46 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-9 col-lg-12 content-side">
 
-                    <div class="row" *ngFor = "let hotel of hotels | async">
+                    <div class="row">
 
-                        <div class="col-sm-6 col-md-6 col-lg-4">
-                            <div class="grid-block main-block t-grid-block">
-                                <div class="main-img t-grid-img">
-                                    <a href="{{asset('karnel/images/3.png')}}">
+                        @foreach($listHotel as $hotel)
+                            <div class="col-sm-6 col-md-6 col-lg-4">
+                                <div class="grid-block main-block t-grid-block">
+                                    <div class="main-img t-grid-img">
+                                        <a href="{{'Sem3_frontEnd/public/hotel/'.$hotel->HotelID}}">
 
-                                        <img src="{{asset('karnel/images/3.png')}}" alt="Selfie Styler" />
-                                    </a>
-                                    <div class="main-mask">
-                                        <ul class="list-unstyled list-inline offer-price-1">
-                                            <li class="price">Price<span class="divider">|</span><span class="pkg">7 Days Tour</span></li>
-                                        </ul>
-                                    </div><!-- end main-mask -->
-                                </div><!-- end t-grid-img -->
+                                            <img src="{{$hotel->ImageUrl == null ? asset('karnel/images/3.png') : 'http://res.cloudinary.com/a123abc/image/upload/'.$hotel->ImageUrl}}" alt="Selfie Styler" />
+                                        </a>
+                                        <div class="main-mask">
+                                            <ul class="list-unstyled list-inline offer-price-1">
+                                                <li class="price">Price<span class="divider">|</span><span class="pkg">{{$hotel->Price}}</span></li>
+                                            </ul>
+                                        </div><!-- end main-mask -->
+                                    </div><!-- end t-grid-img -->
 
-                                <div class="block-info t-grid-info">
+                                    <div class="block-info t-grid-info">
 
 
-                                    <div class="rating" id="rating_3">
-                                        <span><i class="fa fa-star lightgrey"></i></span>
-                                        <span><i class="fa fa-star lightgrey"></i></span>
-                                        <span><i class="fa fa-star lightgrey"></i></span>
-                                        <span><i class="fa fa-star lightgrey"></i></span>
-                                        <span><i class="fa fa-star lightgrey"></i></span>
+                                        <div class="rating" id="rating_3">
+                                            <span><i class="fa fa-star lightgrey"></i></span>
+                                            <span><i class="fa fa-star lightgrey"></i></span>
+                                            <span><i class="fa fa-star lightgrey"></i></span>
+                                            <span><i class="fa fa-star lightgrey"></i></span>
+                                            <span><i class="fa fa-star lightgrey"></i></span>
 
-                                    </div><!-- end rating -->
-                                    <div id="customRating_3">Two</div>
-                                    <h3 class="block-title"><a href="{{asset('karnel/images/3.png')}}">Name</a></h3>
+                                        </div><!-- end rating -->
+                                        <div id="customRating_3">Two</div>
+                                        <h3 class="block-title"><a href="{{'Sem3_frontEnd/public/hotel/'.$hotel->HotelID}}">{{$hotel->Name}}</a></h3>
 
-                                    <p>Content</p>
-                                    <div class="grid-btn">
-                                        <a href="{{asset('karnel/images/3.png')}}" class="btn btn-orange btn-block btn-lg">View More</a>
-                                    </div><!-- end grid-btn -->
-                                </div><!-- end t-grid-info -->
-                            </div><!-- end t-grid-block -->
-                        </div><!-- end columns -->
+                                        <p>{{$hotel->Location}}</p>
+                                        <div class="grid-btn">
+                                            <a href="{{'Sem3_frontEnd/public/hotel/'.$hotel->HotelID}}" class="btn btn-orange btn-block btn-lg">View More</a>
+                                        </div><!-- end grid-btn -->
+                                    </div><!-- end t-grid-info -->
+                                </div><!-- end t-grid-block -->
+                            </div><!-- end columns -->
+                        @endforeach
+
                         <script>
 
                             $(".dropdown-menu li:nth-child(2)").attr("class", "active");
