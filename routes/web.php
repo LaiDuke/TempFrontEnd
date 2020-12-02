@@ -40,3 +40,6 @@ Route::get('/transport', function () {
 Route::get('/restaurant', function () {
     return view('information/restaurant');
 });
+Route::get('/detail', function () {
+    return view('detail');
+});
