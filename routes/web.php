@@ -1,7 +1,7 @@
 <?php
 
+use App\Http\Controllers\TouristSpotController;
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,12 +31,10 @@ Route::get('/hotel', function () {
 Route::get('/resort', function () {
     return view('information/resort');
 });
-Route::get('/tourist-spot', function () {
-    return view('information/tourist-spot');
-});
+Route::get('/tourist-spot', [TouristSpotController::class, 'index']);
 Route::get('/transport', function () {
     return view('information/transport');
-});;
+});
 Route::get('/restaurant', function () {
     return view('information/restaurant');
 });
